@@ -18,25 +18,15 @@
                         border-red-200
                         border-dashed
                         pb-5">
-            <a href="">
+            <a href="index.php">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20 text-orange-300 hover:scale-75 transition" >
                     <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>  
             </a>
             <h1 class="text-2xl">OOP Files</h1>
         </header>
-        <section class="h-[500px] overflow-y-auto m-4 ">
-           <nav class="flex flex-col gap-4 items-center" >
-            <a href="" class=" ">04 file</a>
-            <a href="" class=" ">09 file</a>
-            <a href="" class=" ">08 file</a>
-            <a href="" class=" ">03 file</a>
-            <a href="" class=" ">05 file</a>
-            <a href="" class=" ">10 file</a>
-            <a href="" class=" ">07 file</a>
-            <a href="" class=" ">02 file</a>
-            <a href="" class=" ">06 file</a>
-           </nav>
+        <section>
+            
         </section>
         </main>      
     <script src="js/tailwind-3.2.4.js"></script>    
