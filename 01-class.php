@@ -9,7 +9,7 @@
     
 </head>
 <body class="min-h-[100vh] flex justify-center items-center text-slate-500">
-    <main class="w-[380px] h-[500px] bg-white/50 rounded"  >
+    <main class="w-[380px] h-[600px] bg-white/50 rounded-[10px] "  >
         <header class="flex 
                         gap-4 
                         justify-center 
@@ -25,7 +25,8 @@
             </a>
             <h1 class="text-2xl">01 - class</h1>
         </header>
-        <section class="p-5 my-2 text-red  overscroll-auto m-4">
+        <section class="  max-h-[450px]  overflow-y-auto m-4">
+        
             <?php
             class vehicle {
                 //atributes
@@ -43,7 +44,7 @@
                 }
 
                 public function getAttributes(){
-                    return "<div class='p-4 mb-4 ring-2' >
+                    return "<div class='bg-slate-900 flex flex-col overflow-y-auto p-4 mb-4 ring-2' >
                     <p><strong>Brand: </strong>$this->brand</p>
                     <p><strong>refer: </strong>$this->refer</p>
                     <p><strong>Model: </strong>$this->model</p>
@@ -56,19 +57,23 @@
                 $vehicle1= new Vehicle;
                 $vehicle2= new Vehicle;
                 $vehicle3= new Vehicle;
+                $vehicle4= new Vehicle;
                 $vehicle1->setAttributes('lambo', 'tiguan', '2023', 'spaceGray');
                 $vehicle2->setAttributes('Renault', 'Sandero', '2022', 'BlackGrey');
                 $vehicle2->setAttributes('Chevrolet', 'Camaro', '2012', 'RedFire');
+                $vehicle4->setAttributes('lambo', 'tiguan', '2023', 'spaceGray');
+
 
                 echo $vehicle1->getAttributes();
                 echo $vehicle2->getAttributes();
                 echo $vehicle3->getAttributes();
+                echo $vehicle4->getAttributes();
                 //Acces Attributes    
                 //$vehicle1->brand='toyota';
                 //echo $vehicle1->brand;        
                 
             ?>
-
+        
         </section>
     
         </main>      

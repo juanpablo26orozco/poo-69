@@ -9,7 +9,7 @@
     
 </head>
 <body class="min-h-[100vh] flex justify-center items-center text-slate-500">
-    <main class="w-[380px] h-[500px] bg-white/50 rounded"  >
+    <main class="w-[380px] h-[600px] bg-white/50 rounded"  >
         <header class=" flex 
                         gap-4 
                         justify-center 
@@ -24,8 +24,8 @@
         <section class="h-[500px] overflow-y-auto m-4 ">
         <nav class="flex flex-col gap-4 items-center" >
             <a href="01-class.php   " class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100" ">01 class</a>
-            <a href="" class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100"">02 construct</a>
-            <a href="" class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100"">03 private </a>
+            <a href="02-construct.php" class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100"">02 construct</a>
+            <a href="03-private.php" class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100"">03 private </a>
             <a href="" class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100"">04 collaboration</a>
             <a href="" class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100"">05 parameters</a>
             <a href="" class="bg-blue-800 px-4 py-2 text-white/80 rounded w-[280px] hover:scale-105 transition-all opacity-80 hover:opacity-100"">06 extends</a>
